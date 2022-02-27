@@ -70,8 +70,7 @@ except ImportError:
 engine = AnalysisEngine.instance()
 engine.configure({
   'Threads': settings.threads,
-  'Hash': settings.memory,
-  'Contempt': 0,
+  'Hash': settings.memory
 })
 
 if settings.quiet:
